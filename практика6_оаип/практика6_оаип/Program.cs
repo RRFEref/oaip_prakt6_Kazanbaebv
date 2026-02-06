@@ -16,7 +16,7 @@ class Architecture
     }
     public void GeoRespublice() //свой метод
     {
-        Console.WriteLine("Республика: Татарстан"); // исправлена опечатка
+        Console.WriteLine("Республика: Татарстан");
     }
     public void GeoKazan() //свой метод
     {
@@ -26,7 +26,7 @@ class Architecture
     {
         Console.WriteLine("Один этаж");
     }
-    public void CountApartments() // для сокрытия - исправлено на CountApartments
+    public void CountApartments() // для сокрытия 
     {
         Console.WriteLine("несколько квартир");
     }
@@ -133,4 +133,5 @@ class Program
             castedMuseum.TimeInterval();
         }
     }
+
 }
